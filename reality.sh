@@ -108,10 +108,10 @@ UUID：${v2uuid}
 传输协议：tcp
 Public key：${rePublicKey}
 底层传输：reality
-SNI: www.amazon.com
-shortIds: 88
+SNI: blog.torproject.org
+shortIds: 66
 ====================================
-vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=blog.torproject.org&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#1024-reality
+vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=blog.torproject.org&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#fuckccp-reality
 
 }
 EOF
@@ -132,10 +132,10 @@ client_re(){
     echo "传输协议：tcp"
     echo "Public key：${rePublicKey}"
     echo "底层传输：reality"
-    echo "SNI: www.amazon.com"
-    echo "shortIds: 88"
+    echo "SNI: blog.torproject.org"
+    echo "shortIds: 66"
     echo "===================================="
-    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#1024-reality"
+    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=blog.torproject.org&fp=chrome&pbk=${rePublicKey}&sid=66&type=tcp&headerType=none#fuckccp-reality"
     echo
 }
 
