@@ -75,7 +75,7 @@ cat >/usr/local/etc/xray/config.json<<EOF
                     "maxTimeDiff": 0,
                     "shortIds": [
                         "66",
-                        "123fuckccp"
+                        "123fuck"
                     ]
                 }
             }
@@ -111,7 +111,7 @@ Public key：${rePublicKey}
 SNI: www.belstat.gov.by
 shortIds: 66
 ====================================
-vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#fuckccp-reality
+vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#fuck-reality
 
 }
 EOF
@@ -135,7 +135,7 @@ client_re(){
     echo "SNI: www.belstat.gov.by"
     echo "shortIds: 66"
     echo "===================================="
-    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=66&type=tcp&headerType=none#fuckccp-reality"
+    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=66&type=tcp&headerType=none#fuck-reality"
     echo
 }
 
