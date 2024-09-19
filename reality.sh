@@ -61,10 +61,10 @@ cat >/usr/local/etc/xray/config.json<<EOF
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
-                    "dest": "www.belstat.gov.by:443",
+                    "dest": "adminer.v12.diana.ecentral.dev:443",
                     "xver": 0,
                     "serverNames": [
-                        "www.belstat.gov.by",
+                        "adminer.v12.diana.ecentral.dev",
                         "addons.mozilla.org",
                         "www.un.org",
                         "www.tesla.com"
@@ -108,10 +108,10 @@ UUID：${v2uuid}
 传输协议：tcp
 Public key：${rePublicKey}
 底层传输：reality
-SNI: www.belstat.gov.by
+SNI: adminer.v12.diana.ecentral.dev
 shortIds: 66
 ====================================
-vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#fuck-reality
+vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=adminer.v12.diana.ecentral.dev&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#fuck-reality
 
 }
 EOF
@@ -132,10 +132,10 @@ client_re(){
     echo "传输协议：tcp"
     echo "Public key：${rePublicKey}"
     echo "底层传输：reality"
-    echo "SNI: www.belstat.gov.by"
+    echo "SNI: adminer.v12.diana.ecentral.dev"
     echo "shortIds: 66"
     echo "===================================="
-    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=66&type=tcp&headerType=none#fuck-reality"
+    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=adminer.v12.diana.ecentral.dev&fp=chrome&pbk=${rePublicKey}&sid=66&type=tcp&headerType=none#fuck-reality"
     echo
 }
 
