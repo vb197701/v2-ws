@@ -177,19 +177,19 @@ EOF
 }
 
 install_ssrust(){
-    wget https://raw.githubusercontent.com/yeahwu/v2ray-wss/main/ss-rust.sh && bash ss-rust.sh
+    wget https://raw.githubusercontent.com/vb197701/v2-ws/refs/heads/main/ss-rust.sh && bash ss-rust.sh
 }
 
 install_reality(){
-    wget https://raw.githubusercontent.com/yeahwu/v2ray-wss/main/reality.sh && bash reality.sh
+    wget https://raw.githubusercontent.com/vb197701/v2-ws/refs/heads/main/reality.sh && bash reality.sh
 }
 
 install_ws(){
-    wget https://raw.githubusercontent.com/yeahwu/v2ray-wss/main/ws.sh && bash ws.sh
+    wget https://raw.githubusercontent.com/vb197701/v2-ws/refs/heads/main/ws.sh && bash ws.sh
 }
 
 install_hy2(){
-    wget https://raw.githubusercontent.com/yeahwu/v2ray-wss/main/hy2.sh && bash hy2.sh
+    wget https://raw.githubusercontent.com/vb197701/v2-ws/refs/heads/main/hy2.sh && bash hy2.sh
 }
 
 client_v2ray(){
@@ -216,7 +216,6 @@ client_v2ray(){
 start_menu(){
     clear
     echo " ================================================== "
-    echo " 论坛：https://1024.day                              "
     echo " 介绍：一键安装SS-Rust，v2ray+wss，Reality和hy2代理    "
     echo " 系统：Ubuntu、Debian、CentOS                        "
     echo " ================================================== "

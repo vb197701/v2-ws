@@ -5,16 +5,12 @@
 # 运行脚本：
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/vb197701/v2ray-wss/main/tcp-wss.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/vb197701/v2-ws/refs/heads/main/tcp-wss.sh)
 ```
 或者
 ```
-wget https://raw.githubusercontent.com/vb197701/v2ray-wss/main/tcp-wss.sh && bash tcp-wss.sh
+wget https://raw.githubusercontent.com/vb197701/v2-ws/refs/heads/main/tcp-wss.sh && bash tcp-wss.sh
 ```
-
-**便宜VPS推荐：** https://hostalk.net/deals.html
-
-![image](https://github.com/yeahwu/v2ray-wss/assets/13328328/99ce2c9b-4e00-490c-8469-acb65174c912)
 
 已测试系统如下：
 
@@ -70,7 +66,5 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 ```
 bash <(curl -fsSL https://get.hy2.sh/) --remove
 ```
-1024.day 帖子：
-https://1024.day/d/1296
 
 **提醒：连不上的朋友，建议先检查一下服务器自带防火墙有没有关闭？**
