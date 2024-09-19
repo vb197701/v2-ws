@@ -61,10 +61,10 @@ cat >/usr/local/etc/xray/config.json<<EOF
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
-                    "dest": "blog.torproject.org:443",
+                    "dest": "www.belstat.gov.by:443",
                     "xver": 0,
                     "serverNames": [
-                        "blog.torproject.org",
+                        "www.belstat.gov.by",
                         "addons.mozilla.org",
                         "www.un.org",
                         "www.tesla.com"
@@ -108,10 +108,10 @@ UUID：${v2uuid}
 传输协议：tcp
 Public key：${rePublicKey}
 底层传输：reality
-SNI: blog.torproject.org
+SNI: www.belstat.gov.by
 shortIds: 66
 ====================================
-vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=blog.torproject.org&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#fuckccp-reality
+vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#fuckccp-reality
 
 }
 EOF
@@ -132,10 +132,10 @@ client_re(){
     echo "传输协议：tcp"
     echo "Public key：${rePublicKey}"
     echo "底层传输：reality"
-    echo "SNI: blog.torproject.org"
+    echo "SNI: www.belstat.gov.by"
     echo "shortIds: 66"
     echo "===================================="
-    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=blog.torproject.org&fp=chrome&pbk=${rePublicKey}&sid=66&type=tcp&headerType=none#fuckccp-reality"
+    echo "vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.belstat.gov.by&fp=chrome&pbk=${rePublicKey}&sid=66&type=tcp&headerType=none#fuckccp-reality"
     echo
 }
 
