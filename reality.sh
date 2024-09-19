@@ -111,7 +111,7 @@ Public key：${rePublicKey}
 SNI: www.amazon.com
 shortIds: 88
 ====================================
-vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#1024-reality
+vless://${v2uuid}@$(getIP):${getPort}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=blog.torproject.org&fp=chrome&pbk=${rePublicKey}&sid=88&type=tcp&headerType=none#1024-reality
 
 }
 EOF
